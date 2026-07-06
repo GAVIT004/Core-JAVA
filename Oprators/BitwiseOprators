@@ -1,1 +1,36 @@
 
+package Basicsjava.Oprators.BitwiseOprators;
+
+public class Program {
+    public static void main(String[] args){
+        int x=5;
+        int y=3;
+        System.out.println(Integer.toBinaryString(x));
+        System.out.println(Integer.toBinaryString(y));
+        int z=x&y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        z=x|y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        int a=2;
+        System.out.println(~a);
+        System.out.println(Integer.toBinaryString(a));
+        System.out.println(Integer.toBinaryString(~a));
+        z=x^y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        z=x<<y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        z=x>>y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        z=x>>>y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+
+
+
+    }
+}
