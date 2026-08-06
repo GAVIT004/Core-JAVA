@@ -1,2 +1,2 @@
 # Core-JAVA
-this all my practice codes of core java
+this is all my practice codes of core java
