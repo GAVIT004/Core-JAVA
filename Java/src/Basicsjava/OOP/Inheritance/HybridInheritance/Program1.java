@@ -18,7 +18,7 @@ class Person{
 }
 
 interface Attendance{
-    default void markAttendance(){
+    default void markAttendance() {
 
     }
 }
