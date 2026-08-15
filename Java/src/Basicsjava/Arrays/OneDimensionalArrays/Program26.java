@@ -50,7 +50,7 @@ public class Program26 {
                 for (int j = 0; j < index; j++) {
 
                     if (frequentElement[j]<numbersArray[i]){
-                        isAlreadyStored=false;
+                        isAlreadyStored=true;
                         break;
                     }
                 }
