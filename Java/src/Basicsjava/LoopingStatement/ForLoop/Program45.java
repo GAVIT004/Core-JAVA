@@ -2,27 +2,25 @@ package Basicsjava.LoopingStatement.ForLoop;
 
 import java.util.Scanner;
 
-class RhombusPattern{
-    
-    void Rhombus(int number){
+class TriangleStarPattern{
 
-        for (int i = 2; i <=number; i++) {
+    void triangle(int number){
 
-            for (int j = 1; j <=number-i ; j++) {
+        for (int i=1;i<=number;i++){
+
+            for (int j=1;j<=number-i;j++){
                 System.out.print(" ");
             }
 
-            for (int j = 1; j <=number; j++) {
-                System.out.print("*"+" ");
+            for (int k=1;k<=i;k++){
+                System.out.print("* ");
             }
-
             System.out.println();
         }
-
     }
 }
 
-public class Program37 {
+public class Program45 {
 
     public static void main(String[] args) {
 
@@ -31,7 +29,9 @@ public class Program37 {
         System.out.println("Enter a number: ");
         int number=scanner.nextInt();
 
-        RhombusPattern rhombusPattern=new RhombusPattern();
-        rhombusPattern.Rhombus(number);
+        TriangleStarPattern triangleStarPattern=new TriangleStarPattern();
+        triangleStarPattern.triangle(number);
+
+        scanner.close();
     }
 }
